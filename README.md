@@ -9,3 +9,4 @@
 2. price for bitcoin is retrieved  from https://api.coinbase.com/v2/prices/spot?currency=something
 
 3.This app uses Spring boot .All the bean is manged and get injected to dependencies that reduce coupling between class in app.
+4,
