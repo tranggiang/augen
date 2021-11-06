@@ -30,14 +30,14 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class BitcoinControllerTest {
 
 	@Autowired
-	MockMvc mockMvc;
+	private MockMvc mockMvc;
 	@MockBean
-	SpotPriceService spotPriceService;
+	private SpotPriceService spotPriceService;
 	@MockBean
-	ProfitFactor profitFactor;
+	private ProfitFactor profitFactor;
 	@MockBean
-	Identifier identifier;
-	ObjectMapper objectMapper = new ObjectMapper();
+	private Identifier identifier;
+	private ObjectMapper objectMapper = new ObjectMapper();
 
 	@Test
 	public void buyTestSuccessWithoutCurrencyParam() throws Exception {
