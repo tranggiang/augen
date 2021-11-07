@@ -7,7 +7,7 @@
 	send request to http://localhost:8080/price/buy?amount=10&currency=NZD to get data for buy
 	param amount is required, currency is optinal
 
-2. price for bitcoin is retrieved  from https://api.coinbase.com/v2/prices/spot?currency=something
+2.Price for bitcoin is retrieved  from https://api.coinbase.com/v2/prices/spot?currency=something
 
 3.This app uses Spring boot,Spring stream Kafka .All the bean is managed and  injected to dependencies.
 Controller class BitcoinController.All other service is injected to this class to reduce coupling between them.
