@@ -9,7 +9,7 @@
 
 2. price for bitcoin is retrieved  from https://api.coinbase.com/v2/prices/spot?currency=something
 
-3.This app uses Spring boot .All the bean is managed and  injected to dependencies.
+3.This app uses Spring boot,Spring stream Kafka .All the bean is managed and  injected to dependencies.
 Controller class BitcoinController.All other service is injected to this class to reduce coupling between them.
 Junit test: BitcoinControllerTest
 
