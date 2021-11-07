@@ -1,5 +1,5 @@
- 1.build & run the application 
-	import project as maven 
+ 1.Build & run the application 
+	import project as maven into IDE
 	make sure Kafka is running , config kafka in application.yaml
 	go to DemoApplication.class and run the project 
 	send request to http://localhost:8080/price/sell?amount=10&currency=VND to get data for sell
@@ -8,5 +8,13 @@
 
 2. price for bitcoin is retrieved  from https://api.coinbase.com/v2/prices/spot?currency=something
 
-3.This app uses Spring boot .All the bean is manged and get injected to dependencies that reduce coupling between class in app.
-4,
+3.This app uses Spring boot .All the bean is managed and  injected to dependencies.
+Controller class BitcoinController.All other service is injected to this class to reduce coupling between them.
+Junit test: BitcoinControllerTest
+
+4,Summary breakdown
+ Preparation: 1 hour 
+ Coding: 5 hours  
+ Documentation:1 hour 
+ Building and testing: 1 hour 
+ Grand total: 8 hours 
