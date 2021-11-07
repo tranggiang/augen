@@ -11,6 +11,7 @@
 
 3.This app uses Spring boot,Spring stream Kafka .All the bean is managed and  injected to dependencies.
 Controller class BitcoinController.All other service is injected to this class to reduce coupling between them.
+
 Junit test: BitcoinControllerTest
 
 4,Summary breakdown
