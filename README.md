@@ -3,8 +3,8 @@
 	import project as maven into IDE
 	make sure Kafka is running , config kafka in application.yaml
 	go to DemoApplication.class and run the project 
-	send request to http://localhost:8080/price/sell?amount=10&currency=VND to get data for sell
-	send request to http://localhost:8080/price/buy?amount=10&currency=NZD to get data for buy
+	send request to http://localhost:8080/price/sell?amount=10&currency=NZD to get data for sell price in NZD currency
+	send request to http://localhost:8080/price/buy?amount=10&currency=NZD to get data for buy  price in NZD currency
 	param amount is required, currency is optinal
 
 2.Price for bitcoin is retrieved  from https://api.coinbase.com/v2/prices/spot?currency=something
