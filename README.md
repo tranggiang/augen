@@ -15,6 +15,7 @@ Controller class BitcoinController.All other service is injected to this class t
 Junit test: BitcoinControllerTest
 
 4,Summary breakdown
+
  Preparation: 1 hour 
  Coding: 5 hours  
  Documentation:1 hour 
