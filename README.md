@@ -1,4 +1,5 @@
  1.Build & run the application
+ 
 	import project as maven into IDE
 	make sure Kafka is running , config kafka in application.yaml
 	go to DemoApplication.class and run the project 
